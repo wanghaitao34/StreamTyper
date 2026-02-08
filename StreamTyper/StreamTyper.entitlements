@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Sandbox - Required for App Store -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	
+	<!-- User Selected Files - Read/Write -->
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+	
+	<!-- Apple Events - Required for simulating keystrokes -->
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+	
+	<!-- Temporary exception for Apple Events -->
+	<key>com.apple.security.temporary-exception.apple-events</key>
+	<array>
+		<string>com.apple.systemevents</string>
+	</array>
+	
+	<!-- Network Client (optional, if needed in future) -->
+	<key>com.apple.security.network.client</key>
+	<false/>
+	
+	<!-- Network Server (optional, if needed in future) -->
+	<key>com.apple.security.network.server</key>
+	<false/>
+</dict>
+</plist>

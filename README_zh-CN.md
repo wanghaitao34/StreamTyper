@@ -1,8 +1,8 @@
-# TypeStream
+# StreamTyper
 
 [English](README.md) | [中文](README_zh-CN.md)
 
-TypeStream 是一个 macOS 实用工具，它可以模拟键盘输入来逐字打出剪贴板中的文本。这对于将文本粘贴到阻止标准粘贴操作的应用程序中，或用于自动化文本输入非常有用。
+StreamTyper 是一个 macOS 实用工具，它可以模拟键盘输入来逐字打出剪贴板中的文本。这对于将文本粘贴到阻止标准粘贴操作的应用程序中，或用于自动化文本输入非常有用。
 
 ## 功能特性
 

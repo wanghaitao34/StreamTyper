@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C4B9D3F82EE814CA0076ADB1 /* StreamTyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamTyper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B9D3F82EE814CA0076ADB1 /* TypeStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C4B9D3FA2EE814CA0076ADB1 /* StreamTyper */ = {
+		C4B9D3FA2EE814CA0076ADB1 /* TypeStream */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StreamTyper;
+			path = TypeStream;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		C4B9D3EF2EE814CA0076ADB1 = {
 			isa = PBXGroup;
 			children = (
-				C4B9D3FA2EE814CA0076ADB1 /* StreamTyper */,
+				C4B9D3FA2EE814CA0076ADB1 /* TypeStream */,
 				C4B9D3F92EE814CA0076ADB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		C4B9D3F92EE814CA0076ADB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4B9D3F82EE814CA0076ADB1 /* StreamTyper.app */,
+				C4B9D3F82EE814CA0076ADB1 /* TypeStream.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4B9D3F72EE814CA0076ADB1 /* StreamTyper */ = {
+		C4B9D3F72EE814CA0076ADB1 /* TypeStream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4B9D4032EE814CC0076ADB1 /* Build configuration list for PBXNativeTarget "StreamTyper" */;
+			buildConfigurationList = C4B9D4032EE814CC0076ADB1 /* Build configuration list for PBXNativeTarget "TypeStream" */;
 			buildPhases = (
 				C4B9D3F42EE814CA0076ADB1 /* Sources */,
 				C4B9D3F52EE814CA0076ADB1 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C4B9D3FA2EE814CA0076ADB1 /* StreamTyper */,
+				C4B9D3FA2EE814CA0076ADB1 /* TypeStream */,
 			);
-			name = StreamTyper;
+			name = TypeStream;
 			packageProductDependencies = (
 			);
-			productName = StreamTyper;
-			productReference = C4B9D3F82EE814CA0076ADB1 /* StreamTyper.app */;
+			productName = TypeStream;
+			productReference = C4B9D3F82EE814CA0076ADB1 /* TypeStream.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4B9D3F72EE814CA0076ADB1 /* StreamTyper */,
+				C4B9D3F72EE814CA0076ADB1 /* TypeStream */,
 			);
 		};
 /* End PBXProject section */
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4B9D4032EE814CC0076ADB1 /* Build configuration list for PBXNativeTarget "StreamTyper" */ = {
+		C4B9D4032EE814CC0076ADB1 /* Build configuration list for PBXNativeTarget "TypeStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4B9D4042EE814CC0076ADB1 /* Debug */,

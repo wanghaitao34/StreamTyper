@@ -31,6 +31,18 @@ enum LocalizedKey {
     case permissionDesc
     case openSettings
     case language
+    // Onboarding
+    case onboardingTitle
+    case onboardingSubtitle
+    case onboardingStep1Title
+    case onboardingStep1Desc
+    case onboardingStep2Title
+    case onboardingStep2Desc
+    case onboardingStep3Title
+    case onboardingStep3Desc
+    case onboardingOpenSettings
+    case onboardingCheckAgain
+    case onboardingPrivacyNote
 }
 
 class LanguageManager: ObservableObject {
@@ -75,9 +87,20 @@ class LanguageManager: ObservableObject {
             .emptySlot: "Empty Slot",
             .clearSlot: "Clear Slot",
             .permissionTitle: "Accessibility Permission Required",
-            .permissionDesc: "TypeStream needs permission to simulate keystrokes. Please enable it in System Settings.",
+            .permissionDesc: "StreamTyper needs permission to simulate keystrokes. Please enable it in System Settings.",
             .openSettings: "Open System Settings",
-            .language: "Language"
+            .language: "Language",
+            .onboardingTitle: "Enable Accessibility",
+            .onboardingSubtitle: "StreamTyper needs Accessibility permission to simulate keystrokes. Your data stays local and private.",
+            .onboardingStep1Title: "Open System Settings",
+            .onboardingStep1Desc: "Click the button below to go directly to the settings page.",
+            .onboardingStep2Title: "Find StreamTyper",
+            .onboardingStep2Desc: "Locate StreamTyper in the app list and toggle it on.",
+            .onboardingStep3Title: "All Set",
+            .onboardingStep3Desc: "Return here — the app will detect the permission automatically.",
+            .onboardingOpenSettings: "Open System Settings",
+            .onboardingCheckAgain: "Check Permission Again",
+            .onboardingPrivacyNote: "We only simulate keystrokes. No data is collected or transmitted."
         ],
         .chinese: [
             .subtitle: "多槽位剪贴板打字机",
@@ -98,9 +121,20 @@ class LanguageManager: ObservableObject {
             .emptySlot: "空槽位",
             .clearSlot: "清空槽位",
             .permissionTitle: "需要辅助功能权限",
-            .permissionDesc: "TypeStream 需要权限来模拟按键。请在系统设置中开启。",
+            .permissionDesc: "StreamTyper 需要权限来模拟按键。请在系统设置中开启。",
             .openSettings: "打开系统设置",
-            .language: "语言"
+            .language: "语言",
+            .onboardingTitle: "启用辅助功能",
+            .onboardingSubtitle: "StreamTyper 需要辅助功能权限来模拟键盘输入。您的数据始终保留在本地，安全私密。",
+            .onboardingStep1Title: "打开系统设置",
+            .onboardingStep1Desc: "点击下方按钮直接跳转到设置页面。",
+            .onboardingStep2Title: "找到 StreamTyper",
+            .onboardingStep2Desc: "在应用列表中找到 StreamTyper 并开启权限。",
+            .onboardingStep3Title: "大功告成",
+            .onboardingStep3Desc: "返回此处，应用会自动检测权限状态。",
+            .onboardingOpenSettings: "打开系统设置",
+            .onboardingCheckAgain: "重新检查权限",
+            .onboardingPrivacyNote: "我们仅模拟键盘输入，不会收集或传输任何数据。"
         ]
     ]
 }

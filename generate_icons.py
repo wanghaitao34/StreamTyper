@@ -9,7 +9,7 @@ def generate_icons(source_image_path):
         print("Please save your icon image as 'icon.png' in this folder.")
         return
 
-    iconset_path = "TypeStream/Assets.xcassets/AppIcon.appiconset"
+    iconset_path = "StreamTyper/Assets.xcassets/AppIcon.appiconset"
     if not os.path.exists(iconset_path):
         os.makedirs(iconset_path)
 

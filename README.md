@@ -1,8 +1,8 @@
-# TypeStream
+# StreamTyper
 
 [English](README.md) | [中文](README_zh-CN.md)
 
-TypeStream is a macOS utility that simulates keyboard input to type out text from your clipboard. It is useful for pasting text into applications that block standard paste operations or for automating text entry.
+StreamTyper is a macOS utility that simulates keyboard input to type out text from your clipboard. It is useful for pasting text into applications that block standard paste operations or for automating text entry.
 
 ## Features
 

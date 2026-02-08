@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Information -->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>fun.jbzy.StreamTyper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	
+	<!-- Display Name -->
+	<key>CFBundleDisplayName</key>
+	<string>StreamTyper</string>
+	
+	<!-- Minimum System Version -->
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	
+	<!-- Privacy - Accessibility Usage Description -->
+	<key>NSAppleEventsUsageDescription</key>
+	<string>StreamTyper needs accessibility permission to simulate keyboard typing and automatically input clipboard content. This allows the app to type text from your clipboard slots when you use the hotkeys.</string>
+	
+	<!-- Privacy - Accessibility Usage Description (Chinese) -->
+	<key>NSAppleEventsUsageDescriptionChinese</key>
+	<string>StreamTyper 需要辅助功能权限来模拟键盘输入，自动输入剪贴板内容。这使应用能够在您使用快捷键时从剪贴板槽位输入文本。</string>
+	
+	<!-- High Resolution Capable -->
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	
+	<!-- Principal Class -->
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	
+	<!-- Main Storyboard (not needed for SwiftUI) -->
+	<key>NSMainStoryboardFile</key>
+	<string></string>
+	
+	<!-- Supported Languages -->
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>zh-Hans</string>
+	</array>
+	
+	<!-- Category -->
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	
+	<!-- Copyright -->
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2025 Qingdao Yiben Zhengjing Education Co., Ltd. All rights reserved.</string>
+	
+	<!-- App Transport Security (allow secure connections) -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+	
+	<!-- Supports Automatic Termination -->
+	<key>NSSupportsAutomaticTermination</key>
+	<true/>
+	
+	<!-- Supports Sudden Termination -->
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+</dict>
+</plist>

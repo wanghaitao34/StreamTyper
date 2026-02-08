@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4B9D3F32EE814CA0076ADB1 /* Build configuration list for PBXProject "TypeStream" */;
+			buildConfigurationList = C4B9D3F32EE814CA0076ADB1 /* Build configuration list for PBXProject "StreamTyper" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -255,6 +255,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = StreamTyper/StreamTyper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -291,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = StreamTyper/StreamTyper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -324,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4B9D3F32EE814CA0076ADB1 /* Build configuration list for PBXProject "TypeStream" */ = {
+		C4B9D3F32EE814CA0076ADB1 /* Build configuration list for PBXProject "StreamTyper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4B9D4012EE814CC0076ADB1 /* Debug */,
