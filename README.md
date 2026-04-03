@@ -28,6 +28,12 @@
 
 ## Installation
 
+### Download
+
+Download the latest DMG from the [Releases](https://github.com/wanghaitao34/StreamTyper/releases/latest) page. Open the DMG and drag StreamTyper to your Applications folder.
+
+The app is signed and notarized by Apple — no Gatekeeper warnings.
+
 ### Build from Source
 
 ```bash
@@ -36,7 +42,9 @@ cd StreamTyper
 open StreamTyper.xcodeproj
 ```
 
-Then build and run in Xcode (`Cmd + R`). On first launch, the app will prompt you to grant Accessibility permission in **System Settings > Privacy & Security > Accessibility**.
+Build and run in Xcode (`Cmd + R`).
+
+On first launch, the app will prompt you to grant Accessibility permission in **System Settings > Privacy & Security > Accessibility**.
 
 ## Usage
 

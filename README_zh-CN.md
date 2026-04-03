@@ -28,6 +28,12 @@
 
 ## 安装
 
+### 直接下载
+
+从 [Releases](https://github.com/wanghaitao34/StreamTyper/releases/latest) 页面下载最新的 DMG 文件。打开 DMG，将 StreamTyper 拖入应用程序文件夹即可。
+
+应用已通过 Apple 签名和公证，不会触发 Gatekeeper 安全警告。
+
 ### 从源码构建
 
 ```bash
@@ -36,7 +42,9 @@ cd StreamTyper
 open StreamTyper.xcodeproj
 ```
 
-在 Xcode 中构建并运行（`Cmd + R`）。首次启动时，应用会提示你在 **系统设置 > 隐私与安全性 > 辅助功能** 中授予权限。
+在 Xcode 中构建并运行（`Cmd + R`）。
+
+首次启动时，应用会提示你在 **系统设置 > 隐私与安全性 > 辅助功能** 中授予权限。
 
 ## 使用方法
 
